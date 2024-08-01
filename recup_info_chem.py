@@ -69,6 +69,7 @@ def recup_info_chem(name):
     print("\tBat_F\tBat_F_rep2\t/scratch/assemblage_\'votre login\'/Bat468_1.trimmed.fastq\t/scratch/assemblage_\'votre login\'/Bat468_2.trimmed.fastq")
     print("...")
     print("Les données en single end ne contiendront que le chemin des échantillons forward (dans l'exemple Bat457_1.trimmed.fq)")
+    print("Attention le fichier ne doit contenir aucune ligne supplémentaire tel qu'une ligne vide ")
     sample=input("\nMerci d'indiquer le chemin où se situe ce fichier sample.txt\n")
     #Création d'un fichier texte contenant le chemin
     sampletxt=open('chemsample.txt','w')
@@ -80,3 +81,6 @@ def recup_info_chem(name):
     
 
 login() 
+
+
+
