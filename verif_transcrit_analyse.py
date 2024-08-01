@@ -21,12 +21,12 @@ def verif_analyse():
             else:
                 print("Merci de vérifier le nom des fichiers, puis relancer l'analyse")
                 os.system('rm denovo.txt')
-                os.system('cheminBUSCOBDD.txt')
-                os.system('chemmapp.txt')
-                os.system('chemsample.txt')
-                os.system('chemtranscrit.txt')
-                os.system('donnees.txt')
-                os.system('sample.txt')
+                os.system('rm cheminBUSCOBDD.txt')
+                os.system('rm chemmapp.txt')
+                os.system('rm chemsample.txt')
+                os.system('rm chemtranscrit.txt')
+                os.system('rm donnees.txt')
+                os.system('rm sample.txt')
                 
         
         #Lancement des analyses
@@ -48,12 +48,12 @@ def verif_analyse():
         else:
             print("Aucune analyse ne peut être lancer.\nMerci de vérifier qu'il ne manque pas un fichier à analyser")
             os.system('rm denovo.txt')
-            os.system('cheminBUSCOBDD.txt')
-            os.system('chemmapp.txt')
-            os.system('chemsample.txt')
-            os.system('chemtranscrit.txt')
-            os.system('donnees.txt')
-            os.system('sample.txt')
+            os.system('rm cheminBUSCOBDD.txt')
+            os.system('rm chemmapp.txt')
+            os.system('rm chemsample.txt')
+            os.system('rm chemtranscrit.txt')
+            os.system('rm donnees.txt')
+            os.system('rm sample.txt')
         
         
         
