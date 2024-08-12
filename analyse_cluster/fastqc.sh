@@ -11,7 +11,7 @@
 ####################################################################
 
 #Programmation de lancement du programme suivant 
-sbatch --dependency=afterok:$SLURM_JOB_USER assemblage_trinitymodif.sh
+sbatch --dependency=afterok:$SLURM_JOB_ID assemblage_trinitymodif.sh
 
 #Acceder au répertoire
 cd /scratch/
